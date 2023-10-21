@@ -13,3 +13,5 @@
     lis))
 
 (for-each (lambda (x) (print "> " x)) '(a b c))
+
+(map (lambda (hoge) (* hoge 2)) (iota 100 1))
